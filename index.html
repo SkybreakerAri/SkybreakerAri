@@ -3,12 +3,49 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  
+    <title>Guarded</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link rel="shortcut icon" type="image/png" href="https://cdn.pixabay.com/photo/2019/02/23/11/49/galaxy-icon-4015403_1280.png"/>
+    <style>
+      a{
+        color: rgb(255, 255, 255);
+        text-decoration-line: none;
+      }
+      p {
+        color: white;
+        margin-right: 100px;
+        margin-left: 100px;
+      }
+      li {
+        color: white;
+        margin-right: 100px;
+        margin-left: 100px;
+      }
+      h1 {
+        color: rgb(170, 170, 240);
+      }
+    
+      
+    </style>
+
   </head>
-<body>
-  <h1>Arielle</h1>
-  <p>My name is Arielle, and I really love Brandon Sanderson's books<p>
-    <img src="https://images.theconversation.com/files/223749/original/file-20180619-126537-5l632j.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop" width="50%">
-</body>
+  <body>
+    <script src="script.js"></script>
+  <img src"data:image/jpeg;base64,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">
+  <h1>Guarded</h1>
+    <p id="nonsense">Welcome to my head, where all chaos breaks loose in the form of magic, worlds, and characters. </p>
+    <p> I would tell you about the story I have here, but it is far better for you to learn by yourself. For I cannot claim I have any cohesive idea how this mess fits together; that's up to the reader. So enjoy yourself! And oh! Before you go, some things for navigational purposes:
+      <ol>
+        <li>The <em>Characters</em> button will open a selection of characters. Each one of those characters will open into a bio, and explain the plot they are a part of.</li><br>
+        <li>The <em>Worlds</em> button will open a selection of worlds. Each one of those worlds will explain their history in the Isolated Empire, when they were discovered, and how magic is used in their society.</li><br>
+        <li>The <em>Magic</em> button will open a selection of powers, including a list of combonations, levels, and tiers. There are many rules, and it can be useful to know them all.</li><br>
+        <li>And the <em>Snippets</em> section. That will always be a work in progress. That will contain links to various bits and pieces of works I have deemed ready enough for the populace, of which there are very few. Simply to give an idea of my style and what you're in for.</li>
+        </ol>
+      <p>Enjoy yourself, and note that this is all a work in progress... most of the individual defintions are left blank because I still need to figure it out/write it out.</p>
+   
+    <button><a href="characters.html">Characters</a></button><br><br>
+    <button><a href="worlds.html">Worlds</a></button><br><br>
+    <button><a href="magic.html">Magic</a></button><br><br>
+    <button><a href="snippets.html">Snippets</a></button><br><br>
+  </body>
+</html>
